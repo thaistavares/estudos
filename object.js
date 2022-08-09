@@ -12,8 +12,14 @@ const pessoa = {
 };
 
 console.log(pessoa.nome);
+console.log(pessoa["nome"]);
 console.log(pessoa.idade);
+console.log(pessoa["idade"]);
 console.log(pessoa.salario);
+console.log(pessoa["salario"]);
 console.log(pessoa.solteiro);
+console.log(pessoa["solteiro"]);
 pessoa.hello();
 console.log(pessoa.array);
+console.log(pessoa["array"]);
+console.log(Object.keys(pessoa));
